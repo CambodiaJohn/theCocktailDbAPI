@@ -1,0 +1,53 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+}
+
+h1,h2,h3{
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  width: 50%;
+  color: yellow;
+}
+
+input,button, #randomDrink{
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  color: black;
+
+}
+
+h2{
+  margin-top: 50px;
+  font-size: 4rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
